@@ -20,4 +20,8 @@ describe 'fib' do
   it "fib of 5 is 5" do
     expect(fib(5)).to eq(5)
   end
+  
+  it "fib of 10 is 55" do
+    expect(fib(10)).to eq(55)
+  end
 end
